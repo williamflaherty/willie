@@ -1,0 +1,118 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    text-align:center;
+    background-color: white;
+}
+
+.new {
+        width: 100px;
+    padding: 10px 20px 10px 23px;
+    /*margin-bottom: 1px;*/
+    /*position: relative;*/
+    box-shadow: 1px 3px 50px 0 rgba(0,0,0,.3);
+    background-color: black;
+    color: white;
+    transform: rotate(-5deg) skew(-5deg);
+    margin: 0 auto;
+    font-weight: bold;
+    font-size:150%;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    /*top: 200px;*/
+
+}
+
+.gen {
+    height: 275px;
+    box-shadow: 1px 3px 50px 0 rgba(0,0,0,.3);
+    background-color: #6B1783;
+    color: white;
+    transform: rotate(-5deg) skew(-5deg);
+    margin: 0 auto;
+    font-weight: bold;
+    font-size:400%;
+    position: relative;
+    padding: 0 25px;
+    /*top: 10px;*/
+}
+
+#pagewrap {
+    
+    text-align:center;
+    width:980px;
+    margin:0 auto;
+    
+}
+
+.introduction{
+    position:relative;
+    top:20px;
+    color:#222222;
+    text-align:center;
+    font-size:150%;
+}
+
+.menu-itm {
+    position: relative;
+float: left;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#form {
+    margin-top: 100px;
+    position:relative;
+}
+#button {
+    box-shadow: 1px 1px 20px 0 rgba(0,0,0,.3);    
+    background: #303030;
+    color: white;
+    font: bold 20px 'Helvetica';
+    padding: 10px;
+    cursor: pointer;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    width:250px;
+    height:45px;
+}
+
+#button:active {
+    box-shadow:0px 0px 0px;
+    border: 1px solid #777777;
+    background: #2F4B66;
+    color: white;
+    font: bold 20px 'Helvetica';
+    padding: 9px;
+    cursor: pointer;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    width:250px;
+    height:45px;
+}
+
+#button:hover {
+   color: #6B1783;
+   background-color: white;
+   border: 1px solid #6B1783;
+}
+
+#home {
+    text-align:center;
+    color:#3ad3aa;
+    top: 80px;
+    position: relative;
+}
+
+A:link {
+    text-decoration:none;
+    color:#ff6c37;
+}
+A:visited{
+    color:#ff6c37;
+    text-decoration:none;
+}
+A:hover {
+    color:black;
+}

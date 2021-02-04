@@ -1,0 +1,257 @@
+body {
+   /* font-family: "Helvetica Neue",Helvetica,sans-serif; */
+    font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, sans-serif;
+   	margin:0 auto;
+    font-size: 16px;
+    line-height: 47px;
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 940px;
+}
+
+.span-item{
+    display:block;
+    float:left;
+    width: 50%;
+    text-align: center;
+    padding-top:60px;
+}
+
+/*-------BEGIN top div-----------*/
+#top { 
+	background-color: #4bc196; 
+    color:#FFFFFF;
+    padding-top:25px;
+    text-align: center;
+    /*height:575px;*/
+    clear:both;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+#hero_img {
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+/*-------END top div-----------*/
+/*-------BEGIN second div-----------*/
+#second { 
+    background-color: #FFFFFF; 
+    color:#000000;
+    padding-top:25px;
+    text-align: center;
+    clear:both;
+    padding-bottom: 25px;
+}
+#map_copy {
+    line-height: 30px;
+}
+
+/*-------END second div-----------*/
+/*-------BEGIN third div-----------*/
+#third { 
+    background-color: #4bc196; 
+    color:#FFFFFF;
+    padding-top:25px;
+    text-align: center;
+    clear:both;
+    overflow:hidden;
+    /*padding-bottom: 25px;*/
+    margin-bottom: -85px;
+}
+#metrics_copy {
+    line-height: 30px;
+}
+#cloud {
+    padding-top:40px;
+
+}
+/*-------END third div-----------*/
+/*-------BEGIN fourth div-----------*/
+#fourth { 
+    background-color: #FFFFFF; 
+    color:#000000;
+    padding-top:25px;
+    text-align: center;
+    clear:both;
+    overflow:hidden;
+    padding-bottom: 25px;
+}
+#modular_copy {
+    line-height: 30px;
+}
+#modular {
+    padding-top:40px;
+
+}
+.sync {
+    background: url("../images/sync.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 139px;
+    left: 150px;
+    position: relative;
+    top: -190px;
+    width: 176px;
+
+}
+/*-------END fourth div-----------*/
+/*-------BEGIN fifth div-----------*/
+#fifth { 
+    background-color: #4BC196; 
+    color:#FFFFFF;
+    padding-top:25px;
+    text-align: center;
+    clear:both;
+    overflow:hidden;
+    padding-bottom: 25px;
+}
+
+#signup_title  {
+    font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 34px;
+    padding-bottom: 25px;
+
+}
+#mc-div {
+    padding-top: 0px;
+}
+
+#mc_embed_signup label {
+     font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, sans-serif;
+     font-weight: 200;
+     font-size: 17px;
+}
+#mc_embed_signup input.button {
+     background-color: #b43e69;
+}
+
+#mc_embed_signup #mce-success-response {
+    color: #FFFFFF !important;
+    font-family: 'Roboto Slab',"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 300;
+    margin-left: 25px;
+    padding-top: 0;
+    font-size: 15px;
+}
+
+#mc_embed_signup .button{
+    font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#learnmore{
+    width:200px;
+    height:50px;
+    color: #FFFFFF;
+    background-color: #b43e69;
+    padding:15px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#learnmore:hover {
+    background-color: #777777;
+}
+
+#lm-div{
+    padding-top: 75px;
+}
+/*-------END fifth div-----------*/
+/*-------BEGIN Footer CSS-----------*/
+.page-footer {
+    text-align:center;
+    line-height:16px;
+    font-size:12px;
+    clear:both;
+}
+
+.page-footer nav, .page-footer p {
+    font-size: 16px;    
+}
+
+.page-footer nav ul li a, .page-footer p a {
+    color:#429AD9;   
+}
+
+.page-footer nav ul li a:hover, .page-footer p a:hover {
+    font-weight: bold;   
+}
+
+.page-footer nav, .page-footer .copyright, .page-footer li{
+    display:inline-block;
+}
+
+.page-footer nav ul li, .page-footer .copyright{
+    margin:0 0 0 8px;
+    padding: 16px 8px;
+}
+/*---END Footer CSS---------*/
+
+/*------BEGIN other CSS------------*/
+a:link{
+    text-decoration:none;
+    color: #000;
+}
+
+a:visited{
+    text-decoration:none;
+    color: #000;
+}
+
+a:hover, .page-footer a:hover{
+    color:#429ad9;
+}
+
+
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 36px;
+}
+h1, h2 {
+	font-weight: 100;
+}
+
+.bird {
+	height:50px;
+	width: 50px;
+}
+
+ul .foot-nav {
+	list-style-type: none;
+}
+
+hr.style-one {
+    background-image: -webkit-linear-gradient(left, #d67c0e, #333, #d67c0e); 
+    background-image: -moz-linear-gradient(left, #d67c0e, #333333, #d67c0e); 
+    background-image: -ms-linear-gradient(left, #d67c0e, #333333, #d67c0e); 
+    background-image: -o-linear-gradient(left, #d67c0e, #333333, #d67c0e); 
+    border: 0 none;
+    height: 1px;
+}
+
+.caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #000000;
+    margin-top: -54px;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    height: 30px;
+    left: 0;
+    line-height: 1.33;
+    padding: 5px 20px 0;
+    position: absolute;
+    text-shadow: none;
+    width: 635px;
+    z-index: 500;
+}
+/*------END other CSS------------*/

@@ -1,0 +1,64 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    text-align:center;
+    background-color: #FFFFFF;
+}
+
+#pagewrap {
+        width:980px;
+    margin:0 auto;
+    
+}
+
+.words{
+    position:relative;
+    top:25px;
+    color:#F75933;
+    text-align:center;
+    font-size:300%;
+    font-weight:400;
+}
+
+#form {
+   top:110px;
+    position:relative;
+    margin: 0 auto;
+}
+#button {
+    background: none repeat scroll 0 0 #F75933;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 45px;
+    padding: 14px;
+    width: 250px;
+}
+
+#button:active {
+    background: none repeat scroll 0 0 #f6451a;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 45px;
+    padding: 13px;
+    width: 250px;
+}
+
+#home {
+    text-align:center;
+    color:blue;
+    top:180px;
+    position: relative;
+}
+
+A:link {
+    text-decoration:none;
+    color:#ff6c37;
+}
+A:visited{
+    color:#ff6c37;
+    text-decoration:none;
+}
+A:hover {
+    color:black;
+}

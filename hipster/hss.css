@@ -1,0 +1,93 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    text-align:center;
+    background-color: #d3d3d3;
+}
+
+#pagewrap {
+    
+    text-align:center;
+    width:980px;
+    margin:0 auto;
+    
+}
+
+.introduction{
+    position:relative;
+    top:20px;
+    color:#222222;
+    text-align:center;
+    font-size:150%;
+}
+
+#genre {
+    position:relative;
+    top:80px;
+    font-size:300%;
+    height:98px;
+}
+#tips {
+    position:relative;
+    top:150px;
+
+}
+
+#form {
+   top:190px;
+    position:relative;
+    margin: 0 auto;
+}
+#button {
+    box-shadow: 0 3px 3px black;
+    border: 1px solid #777777;
+    background: #2F4B66;
+    color: white;
+    font: bold 20px 'Helvetica';
+    padding: 10px;
+    cursor: pointer;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    width:250px;
+    height:45px;
+}
+
+#button:active {
+    box-shadow:0px 0px 0px;
+    border: 1px solid #777777;
+    background: #2F4B66;
+    color: white;
+    font: bold 20px 'Helvetica';
+    padding: 9px;
+    cursor: pointer;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    width:250px;
+    height:45px;
+}
+#noEars {
+    margin-top:20px;
+}
+
+#fb {
+    position:relative;
+    top: 210px;
+}
+
+#home {
+    text-align:center;
+    color:blue;
+    top:240px;
+    position: relative;
+}
+
+A:link {
+    text-decoration:none;
+    color:#ff6c37;
+}
+A:visited{
+    color:#ff6c37;
+    text-decoration:none;
+}
+A:hover {
+    color:black;
+}

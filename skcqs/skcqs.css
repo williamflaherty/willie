@@ -1,0 +1,86 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    text-align:center;
+    background-color: #FFFFFF;
+}
+
+#pagewrap {
+        width:980px;
+    margin:0 auto;
+    
+}
+
+.words{
+    position:relative;
+    top:25px;
+    color:#F75933;
+    text-align:center;
+    font-size:300%;
+    font-weight:400;
+}
+
+#list {
+    position:relative;
+    top:45px;
+    font-size:250%;
+    font-weight: 100;
+    text-align: left;
+}
+
+#quote, #hobbies{
+    top:0px;
+}
+
+#hobbies p, #quote p, #job p {
+    margin:0;
+}
+
+#tips {
+    position:relative;
+    top:150px;
+
+}
+
+#form {
+   top:110px;
+    position:relative;
+    margin: 0 auto;
+}
+#button {
+    background: none repeat scroll 0 0 #F75933;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 45px;
+    padding: 14px;
+    width: 250px;
+}
+
+#button:active {
+    background: none repeat scroll 0 0 #f6451a;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 45px;
+    padding: 13px;
+    width: 250px;
+}
+
+#home {
+    text-align:center;
+    color:blue;
+    top:180px;
+    position: relative;
+}
+
+A:link {
+    text-decoration:none;
+    color:#ff6c37;
+}
+A:visited{
+    color:#ff6c37;
+    text-decoration:none;
+}
+A:hover {
+    color:black;
+}

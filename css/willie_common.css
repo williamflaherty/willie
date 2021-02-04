@@ -1,0 +1,84 @@
+html {
+    /*background: rgba(0, 0, 0, 0) url("../images/orange_wc_bg.jpg") no-repeat fixed center center / cover ;*/
+    background-color: white;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    text-align:center;
+    line-height: 1;
+    padding-top: 2px;
+    font-weight:300;
+    margin-bottom:25px;
+}
+
+.wrapper {
+    width:940px;
+    margin:0 auto;
+    padding-bottom: 400px;
+}
+
+.links {
+    text-decoration:none;
+    color:black;
+    text-transform:bold;
+    font-size: 18px;
+}
+
+.links > li {
+    display: inline;
+    list-style-type: center;
+    padding-right: 30px;
+}
+
+.links li ul {
+    display: none;
+    padding: 0px;
+    list-style: none;
+}
+
+.links li:hover ul {
+    display: block;
+    position: absolute;
+    margin-left: 566px;
+    padding-top:7px;
+    background-color: #F0F8FF;
+    text-align: left;
+    z-index: 1000;
+}
+
+.links li:hover li {
+    padding: 2px;
+}
+
+.links li:hover li a{
+    color: black;
+    text-decoration: none;
+}
+
+.links li li a:hover{
+    color:orange;
+}
+
+a:link, a:visited{
+    text-decoration:none;
+    color:black;
+}
+
+a:hover {
+    color:orange;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+hr.style-one {
+    background: -moz-linear-gradient(left center , #F0F8FF, #333333, #F0F8FF) repeat scroll 0 0 #333333;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f0f8ff), color-stop(50%,#000000), color-stop(100%,#f0f8f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #ffffff 0%,#000000 50%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    border: 0 none;
+    height: 1px;
+}
+
+
